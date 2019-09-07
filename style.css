@@ -25,6 +25,7 @@
   background-color: beige;
   display: flex;
   overflow: hidden;
+  background-size: cover;
 }
 
 #pageThree {
@@ -54,6 +55,7 @@ nav {
   height: 50px;
   margin: 0;
   overflow: hidden;
+  background-size: cover;
 }
 ul {
   list-style: none;

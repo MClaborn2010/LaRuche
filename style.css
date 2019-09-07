@@ -28,15 +28,17 @@
 }
 
 #pageThree {
-  height: 100vh;
+  height: 300px;
   width: 100%;
-  background-color: darkorchid;
+  background-color: rgb(80, 80, 80);
+  padding: 10px;
 }
 
 #nameAndLogo {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 0;
 }
 h1 {
   margin: 10vh;
@@ -50,10 +52,12 @@ h1 {
 }
 
 nav {
+  position: fixed;
   background-color: rgb(53, 53, 53);
   height: 50px;
+  width: 100%;
   margin: 0;
-  overflow: hidden;
+  z-index: 3;
 }
 ul {
   list-style: none;
@@ -83,4 +87,22 @@ img {
   padding: 30px;
   height: 100%;
   width: 80%;
+}
+
+h2,
+p {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  opacity: 0.9;
+  border: solid white 2px;
+  width: 80%;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5rem;
+  }
 }

@@ -16,6 +16,7 @@
   background-position: center;
   margin: 0;
   padding: 10px;
+  overflow: hidden;
 }
 
 #pageTwo {
@@ -23,6 +24,7 @@
   width: 100%;
   background-color: beige;
   display: flex;
+  overflow: hidden;
 }
 
 #pageThree {
@@ -51,6 +53,7 @@ nav {
   background-color: rgb(53, 53, 53);
   height: 50px;
   margin: 0;
+  overflow: hidden;
 }
 ul {
   list-style: none;
